@@ -5,7 +5,7 @@ go 1.16
 require (
 	github.com/Azure/azure-sdk-for-go v43.0.0+incompatible
 	github.com/Azure/azure-storage-blob-go v0.7.0
-	github.com/Azure/go-autorest/autorest v0.9.6
+	github.com/Azure/go-autorest/autorest v0.11.1
 	github.com/Azure/go-autorest/autorest/adal v0.9.10
 	github.com/Azure/go-autorest/autorest/azure/cli v0.3.0
 	github.com/Azure/go-autorest/autorest/date v0.3.0
@@ -19,10 +19,9 @@ require (
 	github.com/fatih/structs v1.1.0
 	github.com/go-playground/locales v0.12.1 // indirect
 	github.com/go-playground/universal-translator v0.16.0 // indirect
-	github.com/golang/mock v1.2.0
-	github.com/google/go-cmp v0.4.0
-	github.com/google/uuid v1.1.1
-	github.com/googleapis/gnostic v0.2.0 // indirect
+	github.com/golang/mock v1.4.1
+	github.com/google/go-cmp v0.5.2
+	github.com/google/uuid v1.1.2
 	github.com/imdario/mergo v0.3.6
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jarcoal/httpmock v1.0.1
@@ -44,11 +43,10 @@ require (
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
-	golang.org/x/time v0.0.0-20190921001708-c4c64cad1fd0 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.25.0
 	gopkg.in/ini.v1 v1.41.0
-	k8s.io/api v0.16.15
-	k8s.io/apimachinery v0.16.15
-	k8s.io/client-go v0.16.15
+	k8s.io/api v0.20.0
+	k8s.io/apimachinery v0.20.0
+	k8s.io/client-go v0.20.0
 )
